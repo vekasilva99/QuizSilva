@@ -221,3 +221,45 @@ color:white;
     background:url("../imagenes/5.jpg");
     background-repeat: no-repeat;
 }
+#habilidades{
+    min-height:750px;
+    background:url("../imagenes/7.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+}
+
+#habilidades h2{
+margin-top:15px;
+margin-left: 10px;
+font-size: 400%;
+color:black;
+
+}
+
+.logo{
+    width: 20%
+}
+
+#habilidades ul{
+    margin:0;
+    padding:0;
+}
+
+#habilidades li{
+    float:left;
+    width:132px;
+    display:inline;
+    padding: 20px 20px 20px 20px;
+    margin-top: 5%;
+    font-size: 18px;
+    color: #eec0bf;
+    background-color: black;
+    border-top:#eec0bf 10px solid;
+    border-bottom:#eec0bf 10px solid;
+    border-left:#eec0bf 10px solid;
+    border-right:#eec0bf 10px solid;
+    
+}
+
