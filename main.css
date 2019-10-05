@@ -4,23 +4,31 @@ body{
     line-height: 1.5;
     padding:0;
     margin:0;
-    background-color:grey;
+    background-color:white;
 }
 
 .contenedor{
     width:100%;
     margin:auto;
     overflow: hidden;
+   
+}
+
+.contenedor1{
+    width:100%;
+    margin:0;
+    overflow: hidden;
+    background-color: #eec0bf;
 }
 
 header{
     background-color: #eec0bf;
     color:white;
     padding-top: 20px;
-    border-top:white 20px solid;
-    border-bottom:white 20px solid;
-    border-left:white 20px solid;
-    border-right:white 20px solid;
+    border-top:black 20px solid;
+    border-bottom:black 20px solid;
+    border-left:black 20px solid;
+    border-right:black 20px solid;
 
 }
 
@@ -71,4 +79,62 @@ font-size: 200%;
 margin-left: 300px;
 margin-right: 150px;
 margin-bottom: 10px;
+
+
 }
+
+.contenedor2{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    background-color: #eec0bf;
+    align-items: center
+
+    
+}
+
+#portafolio{
+    min-height:750px;
+    text-align: center;
+    
+}
+
+#portafolio h2{
+    margin-top:10px;
+    font-size: 500%;
+    color:black;
+    
+    }
+
+    #portafolio h3{
+        margin-top:2px;
+        font-size: 200%;
+        color:black;
+        
+        }
+
+  .imagen{
+      width: 10%;
+      
+
+  }
+
+.circulo{
+    color: #eec0bf;
+    width:90%;
+    height:50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: inline-block;
+    border-top:black 20px solid;
+    border-bottom:black 20px solid;
+    border-left:black 20px solid;
+    border-right:black 20px solid;
+
+    
+    
+
+}
+
+
