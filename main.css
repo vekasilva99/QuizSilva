@@ -100,7 +100,7 @@ margin-bottom: 10px;
     overflow: hidden;
     background-color:#white;
    display: flex;
-   align-items: flex-start;
+   align-items:flex-start;
    
 
     
@@ -261,5 +261,39 @@ color:black;
     border-left:#eec0bf 10px solid;
     border-right:#eec0bf 10px solid;
     
+}
+
+#contacto{
+    min-height:750px;
+    background:url("../imagenes/7.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+}
+
+#habilidades h2{
+margin-top:15px;
+margin-left: 10px;
+font-size: 400%;
+color:black;
+
+}
+
+#flotante{
+    display:inline-block;
+  
+    padding:30px;
+    background:black;
+    font-size: 20px;
+    color:#eec0bf;
+    cursor: pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+
+}
+#flotante:hover{
+    background-color: #eec0bf
 }
 
