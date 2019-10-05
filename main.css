@@ -88,7 +88,20 @@ margin-bottom: 10px;
     margin:auto;
     overflow: hidden;
     background-color: #eec0bf;
-    align-items: center
+    background:url("../imagenes/6.jpg");
+    background-repeat: no-repeat;
+
+    
+}
+
+.contenedor3{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    background-color:#white;
+   display: flex;
+   align-items: flex-start;
+   
 
     
 }
@@ -97,12 +110,14 @@ margin-bottom: 10px;
     min-height:750px;
     text-align: center;
     
+    
 }
 
 #portafolio h2{
     margin-top:10px;
     font-size: 500%;
     color:black;
+
     
     }
 
@@ -110,6 +125,7 @@ margin-bottom: 10px;
         margin-top:2px;
         font-size: 200%;
         color:black;
+       
         
         }
 
@@ -137,4 +153,71 @@ margin-bottom: 10px;
 
 }
 
+#acerca{
+    min-height:750px;
+    text-align: center;
+    display: flex;
+flex-direction: column;
 
+
+    
+}
+
+#acerca h2{
+    margin-top:50px;
+    font-size: 500%;
+    color:black;
+    
+    }
+
+#acerca h3{
+margin-top: 5px;
+ font-size: 200%;
+color:white;
+        
+        }
+.info{
+            color: #eec0bf;
+            width:90%;
+            height:50%;
+            margin-top: 10px;
+            margin-bottom: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            background-color: white;
+            display: inline-block;
+            border-top:black 10px solid;
+            border-bottom:black 10px solid;
+            border-left:black 10px solid;
+            border-right:black 10px solid;
+            flex-direction: column;
+           
+        }
+
+.titulos{
+    width: 60%;
+    background-color: #eec0bf;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-bottom: 70px;
+    text-align: center;
+    border-left: black 10px solid;
+    border-right: black 10px solid;
+    border-top: black 10px solid;
+    border-bottom: black 10px solid;
+    
+   
+}
+.foto{
+    width: 30%;
+    height: 10%;
+
+}
+
+.ima{
+    width: 100%;
+    background-color: #eec0bf;
+    background:url("../imagenes/5.jpg");
+    background-repeat: no-repeat;
+}
